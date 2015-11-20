@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'staticpages/portfolio'
+  root 'staticpages#portfolio'
 
   get 'staticpages/blog'
 
