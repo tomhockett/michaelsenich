@@ -50,23 +50,26 @@ p {
 	line-height: 1.7em;
 }
 
+a:hover {
+	text-decoration:none;
+}
+
 /* header */
 
 #logo {
 	float: left;
 	margin-right: 10px;
-	font-size: 1.7em;
+	font-family: Varela Round, Helvetica, arial, sans-serif;
+	font-size: 40px;
+	font-weight: 800;
 	color: #000;
 	text-transform: uppercase;
-	letter-spacing: -1px;
+	letter-spacing: 3px;
+	line-height: 1.2em;
 	padding-top: 9px;
 	font-weight: bold;
 }
 
-#logo:hover {
-	color: #fff;
-	text-decoration: none;
-}
 
 /* navbar */
 
@@ -79,4 +82,17 @@ p {
 	display: inline-block;
 	vertical-align: middle;
 	text-align: center;
+}
+
+/* footer */
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 2px solid #eaeaea;
+	color: #777;
+}
+
+footer small {
+	float: left;
 }
