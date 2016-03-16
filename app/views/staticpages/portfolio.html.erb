@@ -1,5 +1,14 @@
 <% provide(:title, "Portfolio") %>
 
-	<h1>Coming Soon!</h1>
+<div class="row masonry-container">
 
-	<%= image_tag("Michael 5.jpg", class: "home_image") %>
+		<% @images.each do |image| %>
+			<div class="box col-md-4">
+				<div class="thumbnail">
+					<%= image_tag("#{image.split('/').last}") %>
+				</div>
+			</div>
+		<% end %>
+
+
+</div>
