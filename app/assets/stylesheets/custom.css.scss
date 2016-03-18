@@ -23,6 +23,10 @@ textarea {
 	margin-bottom: 10px;
 }
 
+.container-fluid {
+	padding: 0px;
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,6 +70,7 @@ a:hover {
 	letter-spacing: 3px;
 	line-height: 1.2em;
 	padding-top: 15px;
+	margin-left: 20px;
 	font-weight: bold;
 }
 
@@ -83,7 +88,7 @@ a:hover {
 	text-align: center;
 }
 
-/* thumbnails */
+/* images */
 .thumbnail {
 	padding: 0px;
 	border: 0px;
