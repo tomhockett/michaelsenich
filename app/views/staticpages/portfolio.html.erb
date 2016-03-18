@@ -1,9 +1,9 @@
 <% provide(:title, "Portfolio") %>
 
-<div class="row masonry-container">
+<div id="masonry-container" class="row transitions-enabled">
 
 		<% @images.each do |image| %>
-			<div class="box col-md-4">
+			<div class="box col-md-4 col-lg-3">
 				<div class="thumbnail">
 					<%= image_tag("#{image.split('/').last}") %>
 				</div>
