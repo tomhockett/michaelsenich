@@ -1,10 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "masonry/fluid";
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono);
 
 /* universal */
 
 body {
+	background-color: #323232;
 }
 
 section {
@@ -62,10 +64,10 @@ a:hover {
 
 #logo {
 	float: left;
-	font-family: Varela Round, Helvetica, arial, sans-serif;
+	font-family: 'Droid Sans Mono', Helvetica, arial, sans-serif;
 	font-size: 1.5em;
 	font-weight: 800;
-	color: #000;
+	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	line-height: 1.2em;
@@ -108,7 +110,9 @@ footer {
 }
 
 footer small {
+	font-family: 'Droid Sans Mono', arial, sans-serif;
 	float: left;
+	color: #FFF;
 }
 
 /* images */
