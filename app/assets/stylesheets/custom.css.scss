@@ -1,6 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "masonry/fluid";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono);
 
 /* universal */
@@ -76,6 +78,18 @@ a:hover {
 	font-weight: bold;
 }
 
+/* buttons */
+
+.btn.sharp {
+  border-radius:0;
+	color: #FFF;
+	background-color: #222;
+	font-family: 'Droid Sans Mono', Helvetica, arial, sans-serif;
+}
+
+.btn.sharp>a {
+	color: inherit;
+}
 
 /* navbar */
 
