@@ -11,6 +11,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'json', '~> 1.8.5'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
